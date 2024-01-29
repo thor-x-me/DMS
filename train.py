@@ -1,3 +1,6 @@
+# this part of the code is meant to be used for training the classification model
+
+#importing libraries
 from ultralytics import YOLO
 
 # loading the model
