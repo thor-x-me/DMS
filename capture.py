@@ -1,3 +1,7 @@
+# this piece of code click images every second
+# captured images can be used to train the model by cutting and pasting the desired class folder
+
+#importing libraries
 import cv2
 import time
 
@@ -11,7 +15,7 @@ def capture_photos(output_folder, interval=1, total_photos=10):
         return
 
     # Create the output folder if it doesn't exist
-    if not os.path.exists(output_folder):
+    if not os.path.exists(output_folder):        #creating folder to save pictures in 
         os.makedirs(output_folder)
 
     photo_count = 0
@@ -27,7 +31,7 @@ def capture_photos(output_folder, interval=1, total_photos=10):
 
             # Save the captured frame to a file
             photo_filename = f"{output_folder}/photo_{photo_count + 1}.jpg"
-            cv2.imwrite(photo_filename, frame)
+            cv2.imwrite(photo_filename, frame)        # saving clicked pictures
 
             print(f"Photo {photo_count + 1} captured: {photo_filename}")
 
