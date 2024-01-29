@@ -5,14 +5,14 @@ This project is on DMS (Driver Monitoring System). We will track drivers movemen
 - Training a model is easy when you have your data formated properly.
 - Classification traing data follows following structure here:
 - The folder 'data' is stored in project file DMS
-  data
-    |
-      -train
-          |
-            -Active
-            -Drowsy
-      -val
-          |
-            -Active
-            -Drowsy
+  <p>data <br>
+    |<br>
+      -train<br>
+          | <br>
+            -Active <br>
+            -Drowsy <br>
+      -val <br>
+          | <br>
+            -Active <br>
+            -Drowsy <br> </p>
   
