@@ -9,10 +9,10 @@ This project is on DMS (Driver Monitoring System). We will track drivers movemen
     |<br>
       -train<br>
           | <br>
-            -Active <br>
-            -Drowsy <br>
+            --Active <br>
+            --Drowsy <br>
       -val <br>
           | <br>
-            -Active <br>
-            -Drowsy <br> </p>
+            --Active <br>
+            --Drowsy <br> </p>
   
